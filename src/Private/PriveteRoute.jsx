@@ -7,7 +7,7 @@ export default function PriveteRoute({ children }) {
 
 	if (loading) {
 		return (
-			<div className="flex justify-center ">
+			<div className="flex justify-center "
 				<span className="loading w-52  loading-spinner text-error"></span>;
 			</div>
 		);
