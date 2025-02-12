@@ -3,7 +3,7 @@ import { AuthContext } from "../context/AuthProvide";
 import { Navigate } from "react-router-dom";
 
 export default function PriveteRoute({ children }) {
-	const { user, loading } = useContext(AuthContext);
+	const { user, loading } = useContext(AuthContext
 
 	if (loading) {
 		return (
